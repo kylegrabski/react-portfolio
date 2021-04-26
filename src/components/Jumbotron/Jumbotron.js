@@ -7,7 +7,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 // @ToDo style more, have image be at top, word div needs to be centered and mobile friendly
 function Jumbotron() {
-  const matches = useMediaQuery("(min-width:600px)");
+
 
   return (
     <>
@@ -18,7 +18,7 @@ function Jumbotron() {
       >
         <div className={styles.logo}>
           <div className={styles.welcomeName}>Kyle Grabski</div>
-          <div className={styles.slogan} matches={matches}>
+          <div className={styles.slogan}>
            
               <Fade top cascade>
                 <div>WEB/</div>
@@ -48,8 +48,4 @@ function Jumbotron() {
   );
 }
 
-{
-  /* <p>Kyle Grabski</p>
-<p>WEB DESIGN MADE SIMPLE </p> */
-}
 export default Jumbotron;
