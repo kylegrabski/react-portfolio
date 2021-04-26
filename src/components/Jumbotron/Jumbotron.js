@@ -32,7 +32,7 @@ function Jumbotron() {
                 " FUN",
                 " EYE CATCHING",
                 " INTERACTIVE",
-                " PEACEFULLY",
+                " STRESS FREE",
               ]}
             ></TextLoop>
           </div>
