@@ -1,5 +1,5 @@
 .logo {
-background-image:url(../assets/img/black_whitev2.png);
+background-image:url(../assets/img/daniel-leone.jpg);
 height: 800px;
 width: 100%;
 background-size: cover;
@@ -10,6 +10,7 @@ background-position: center;
   z-index: 3;
   /* top: 89px;
   right: 500px; */
+  color: #fff;
   text-align: center;
   font-size: 50px;
   display: flex;
@@ -21,7 +22,7 @@ background-position: center;
   font-family: "Roboto", sans-serif;
   z-index: 3;
   font-size: 30px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   text-align: center;
 }
