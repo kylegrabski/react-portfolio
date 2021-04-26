@@ -8,7 +8,6 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import DragHandleIcon from "@material-ui/icons/DragHandle";
 import Grid from "@material-ui/core/Grid";
-import "./styles/navbar.css";
 
 // @ToDo make background color of navbar opaque. Maybe add a word or two to show the hamburger icon to bring the navbar down
 

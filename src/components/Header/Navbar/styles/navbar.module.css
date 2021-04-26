@@ -1,0 +1,4 @@
+.navBackground {
+    z-index: 2;
+    background: rgba(255, 0, 0, .9);
+}

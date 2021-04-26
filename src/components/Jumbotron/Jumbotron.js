@@ -6,18 +6,13 @@ import TextLoop from "react-text-loop";
 
 // @ToDo style more, have image be at top, word div needs to be centered and mobile friendly
 function Jumbotron() {
-  
   return (
     <>
       <Container
         className={styles.jumbotron}
-        maxWidth="false"
-        disableGutters="true"
-        // style={{height:'10px'}}
+        maxWidth={false}
+        disableGutters={true}
       >
-        {/* <img src={logo} alt="Logo"
-        className={styles.logo}
-        /> */}
         <div className={styles.logo}>
           <div className={styles.welcomeName}>Kyle Grabski</div>
           <div className={styles.slogan}>
@@ -30,7 +25,16 @@ function Jumbotron() {
             <Fade right cascade>
               <div>MADE/</div>
             </Fade>
-            <TextLoop children={[" Simple", " CREATIVELY"," FUN", " EYE CATCHING", " INTERACTIVE", " PEACEFULLY"]}></TextLoop>
+            <TextLoop
+              children={[
+                " SIMPLE",
+                " CREATIVELY",
+                " FUN",
+                " EYE CATCHING",
+                " INTERACTIVE",
+                " PEACEFULLY",
+              ]}
+            ></TextLoop>
           </div>
         </div>
         <br />
