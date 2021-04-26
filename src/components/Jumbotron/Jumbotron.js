@@ -6,16 +6,11 @@ import TextLoop from "react-text-loop";
 
 // @ToDo style more, have image be at top, word div needs to be centered and mobile friendly
 function Jumbotron() {
-  const revealDiv = () => {
-    document.getElementById(styles.jumbotron).addEventListener("click", (e) => {
-      console.log("click");
-    });
-  };
+  
   return (
     <>
       <Container
         className={styles.jumbotron}
-        onClick={revealDiv}
         maxWidth="false"
         disableGutters="true"
         // style={{height:'10px'}}
