@@ -1,0 +1,13 @@
+.footerDiv {
+    background-color: red;
+    text-align: center;
+}
+
+.github,
+.linkedIn,
+.resume {
+    font-size: 100px;
+    /* padding: 300px;
+    display: flex;
+    justify-content: center; */
+}
