@@ -1,18 +1,76 @@
-import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import DevicesIcon from '@material-ui/icons/Devices';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import DevicesIcon from "@material-ui/icons/Devices";
+import Typography from "@material-ui/core/Typography";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
-export default function SimpleContainer() {
+const useStyles = makeStyles({
+  root: {
+    minWidth: 275,
+  },
+  bullet: {
+    display: "inline-block",
+    margin: "0 2px",
+    transform: "scale(0.8)",
+  },
+  title: {
+    fontSize: 14,
+  },
+  pos: {
+    marginBottom: 12,
+  },
+});
+
+export default function OutlinedCard() {
+  const classes = useStyles();
+  const bull = <span className={classes.bullet}>•</span>;
+
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <Typography component="div" style={{ maxWidth: false, disableGutter:true }} />
-        <DevicesIcon style={{ fontSize: 40 }}/>
+    <>
+      <Fade bottom cascade>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+          }}
+        >
+          <Card
+            className={classes.root}
+            variant="outlined"
+            style={{ textAlign: "center", margin: "10px" }}
+          >
+            <CardContent>
+              <Zoom delay={1000}>
+                <DevicesIcon style={{ fontSize: 50 }} />
+              </Zoom>
 
-      </Container>
-    </React.Fragment>
+              <Typography variant="body2" component="p">
+                TAILORED TO YOUR NEEDS
+              </Typography>
+            </CardContent>
+          </Card>
+
+          <Card
+            className={classes.root}
+            variant="outlined"
+            style={{ textAlign: "center", margin: "10px" }}
+          >
+            <CardContent>
+              <Zoom delay={1000}>
+                <DevicesIcon style={{ fontSize: 50 }} />
+              </Zoom>
+
+              <Typography variant="body2" component="p">
+                MOBILE RESPONSIVE DESIGN
+              </Typography>
+            </CardContent>
+          </Card>
+        </div>
+      </Fade>
+    </>
   );
 }
