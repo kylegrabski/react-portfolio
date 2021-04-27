@@ -8,6 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
+import Flip from 'react-reveal/Flip';
 import styles from "./styles/projectCards.module.css";
 
 const useStyles = makeStyles({
@@ -21,8 +22,10 @@ export default function ProjectCards({ id, name, image, url, github, about }) {
 
   return (
     <>
-      <Fade right cascade>
-        <Card className={classes.root} display="flex" justifyContent="center">
+      <Flip bottom cascade>
+        <Card className={classes.root} 
+        style={{margin:"30px"}}
+        >
           <CardActionArea href={url} target="_blank">
             <CardMedia
               component="img"
@@ -42,11 +45,11 @@ export default function ProjectCards({ id, name, image, url, github, about }) {
           </CardActionArea>
           <CardActions>
             <Button href={github} target="_blank" size="small" color="primary">
-              CODE
+              <code>CODE</code>
             </Button>
           </CardActions>
         </Card>
-      </Fade>
+      </Flip>
     </>
   );
 }

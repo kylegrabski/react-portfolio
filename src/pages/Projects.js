@@ -17,7 +17,7 @@ class Projects extends Component {
           flexDirection: "column",
           alignContent: "center",
           alignItems: "center",
-          margin:"100px"
+          backgroundImage:" linear-gradient(to right, #fff 50%, #141E55 0%)",
         }}
       >
         {this.state.projectData.map((item) => (
