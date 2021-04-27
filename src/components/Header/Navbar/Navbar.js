@@ -13,6 +13,10 @@ import Grid from "@material-ui/core/Grid";
 // @ToDo make background color of navbar opaque. Maybe add a word or two to show the hamburger icon to bring the navbar down
 
 const useStyles = makeStyles({
+  root: {
+    position: "-webkit-sticky",
+    position: "sticky",
+  },
   list: {
     width: 250,
   },
@@ -82,7 +86,7 @@ export default function Navbar() {
           <React.Fragment key={anchor}>
             <Button className="navbtn" onClick={toggleDrawer(anchor, true)}>
               {" "}
-              <DragHandleIcon style={{fontSize: 40}} />
+              <DragHandleIcon style={{ fontSize: 40 }} />
             </Button>
             <SwipeableDrawer
               anchor={anchor}

@@ -15,6 +15,9 @@ function Jumbotron() {
         className={styles.jumbotron}
         maxWidth={false}
         disableGutters={true}
+        style={{
+          backgroundColor: "#141E55",
+        }}
       >
         <div className={styles.logo}>
           <div className={styles.welcomeName}>Kyle Grabski</div>
