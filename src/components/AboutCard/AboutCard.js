@@ -83,6 +83,12 @@ export default function OutlinedCard() {
           </Card>
         </div>
       </Fade>
+
+      <div className="aboutMe">
+          <h3>
+            Hi. I'm Kyle, nice to meet you. Please take a look at some of my projects! 
+          </h3>
+      </div>
     </>
   );
 }
