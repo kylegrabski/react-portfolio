@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
@@ -50,12 +51,25 @@ export default function Navbar() {
       {" "}
       <Grid container justify="center">
         <List>
-          {["About", "Projects", "Contact"].map((text, index) => (
-            <ListItem button key={text}>
-              {/* <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon> */}
-              <ListItemText primary={text} />
+          <Link to="/">
+            <ListItem button key="About">
+              <ListItemText primary="About" />
             </ListItem>
-          ))}
+          </Link>
+        </List>
+        <List>
+          <Link to="/projects">
+            <ListItem button key="Projects">
+              <ListItemText primary="Projects" />
+            </ListItem>
+          </Link>
+        </List>
+        <List>
+          <Link to="/contact">
+            <ListItem button key="Contact">
+              <ListItemText primary="Contact" />
+            </ListItem>
+          </Link>
         </List>
       </Grid>
     </div>
@@ -66,7 +80,7 @@ export default function Navbar() {
       <Grid container justify="center">
         {["top"].map((anchor) => (
           <React.Fragment key={anchor}>
-            <Button className="navbtn" onClick={toggleDrawer(anchor, true)} >
+            <Button className="navbtn" onClick={toggleDrawer(anchor, true)}>
               {" "}
               <DragHandleIcon />
             </Button>
