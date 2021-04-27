@@ -107,7 +107,7 @@ export default function OutlinedCard() {
               style={{ fontSize: "18px" }}
               >
                 I am passionate about being involved in the creation of your
-                projects. I enjoy playing music, oil painting, and all things creative. Please take a look at some of my projects
+                projects. I enjoy playing music, oil painting, and all things creative. Please take a look at some of my projects.
               </p>
             </Grid>
           </Grid>
