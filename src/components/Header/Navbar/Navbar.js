@@ -82,7 +82,7 @@ export default function Navbar() {
           <React.Fragment key={anchor}>
             <Button className="navbtn" onClick={toggleDrawer(anchor, true)}>
               {" "}
-              <DragHandleIcon />
+              <DragHandleIcon style={{fontSize: 40}} />
             </Button>
             <SwipeableDrawer
               anchor={anchor}
