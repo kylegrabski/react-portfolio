@@ -12,9 +12,12 @@ class Projects extends Component {
       <div
         style={{
           display: "flex",
-          flexDirection: "row",
-          flexWrap: "wrap",
+          flexWrap: "row wrap",
           justifyContent: "center",
+          flexDirection: "column",
+          alignContent: "center",
+          alignItems: "center",
+          margin:"100px"
         }}
       >
         {this.state.projectData.map((item) => (

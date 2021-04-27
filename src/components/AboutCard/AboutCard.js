@@ -46,7 +46,7 @@ export default function OutlinedCard() {
               style={{ textAlign: "center", margin: "10px" }}
             >
               <CardContent>
-                <Zoom delay={500}>
+                <Zoom delay={1000}>
                   <DoneAllIcon style={{ fontSize: 50 }} />
                 </Zoom>
 
@@ -62,7 +62,7 @@ export default function OutlinedCard() {
               style={{ textAlign: "center", margin: "10px" }}
             >
               <CardContent>
-                <Zoom delay={500}>
+                <Zoom delay={1000}>
                   <DevicesIcon style={{ fontSize: 50 }} />
                 </Zoom>
 
@@ -78,7 +78,7 @@ export default function OutlinedCard() {
               style={{ textAlign: "center", margin: "10px" }}
             >
               <CardContent>
-                <Zoom delay={500}>
+                <Zoom delay={1000}>
                   <CodeIcon style={{ fontSize: 50 }} />
                 </Zoom>
 
@@ -89,7 +89,7 @@ export default function OutlinedCard() {
             </Card>
           </div>
         </Fade>
-        <Fade cascade right delay="1000">
+        <Fade cascade right delay="800">
           <Grid
             container
             spacing={0}
@@ -98,7 +98,7 @@ export default function OutlinedCard() {
           >
             <Grid item md={7}>
               <p style={{ fontSize: "50px" }}>
-                Hi. I'm Kyle, nice to meet you!
+                Hi, I'm Kyle, nice to meet you!
               </p>
             </Grid>
 
