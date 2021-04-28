@@ -14,8 +14,7 @@ import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles({
   root: {
-    position: "-webkit-sticky",
-    position: "sticky",
+  position: "sticky",
   },
   list: {
     width: 250,
@@ -55,26 +54,35 @@ export default function Navbar() {
       {" "}
       <Grid container justify="center">
         <List>
-          <Link to="/">
+          <Link to="/"
+          style={{color:"black"}}
+          >
             <ListItem button key="About">
               <ListItemText primary="About" />
             </ListItem>
           </Link>
         </List>
         <List>
-          <Link to="/projects">
+          <Link to="/projects"
+          style={{color:"black"}}
+          >
             <ListItem button key="Projects">
               <ListItemText primary="Projects" />
             </ListItem>
           </Link>
         </List>
-        <List>
-          <Link to="/contact">
+
+        {/* @ToDo create contact page */}
+        
+        {/* <List>
+          <Link to="/contact"
+          style={{color:"black"}}
+          >
             <ListItem button key="Contact">
               <ListItemText primary="Contact" />
             </ListItem>
           </Link>
-        </List>
+        </List> */}
       </Grid>
     </div>
   );
