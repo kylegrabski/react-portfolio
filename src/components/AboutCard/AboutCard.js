@@ -97,17 +97,14 @@ export default function OutlinedCard() {
             style={{ color: "white", textAlign: "center", justify: "center" }}
           >
             <Grid item md={7}>
-              <p style={{ fontSize: "50px" }}>
-                Hi I'm Kyle, nice to meet you!
-              </p>
+              <p style={{ fontSize: "50px", fontFamily: "Roboto, Sans Serif" }}>Hi I'm Kyle, nice to meet you!</p>
             </Grid>
 
-            <Grid item xs={5}>
-              <p
-              style={{ fontSize: "18px" }}
-              >
+            <Grid item md={4}>
+              <p style={{ fontSize: "18px" }}>
                 I am passionate about being involved in the creation of your
-                projects. I enjoy playing music, oil painting, and all things creative. Please take a look at some of my projects.
+                designs. I enjoy playing music, oil painting, and all things
+                creative. Please take a look at some of my projects!
               </p>
             </Grid>
           </Grid>
