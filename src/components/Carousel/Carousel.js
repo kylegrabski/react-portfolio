@@ -5,7 +5,9 @@ function CarouselProjects(props) {
   console.log(props);
   return (
     <>
-      <Carousel>
+      <Carousel fade
+      pause={false}
+      >
         <Carousel.Item interval={3000}>
           <img
             className="d-block w-100"
