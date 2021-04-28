@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Employee Directory",
-    "image": "http://placekitten.com/200/300",
+    "image": "/images/employee-directory.png",
     "url": "https://techlink-employee-directory.netlify.app/",
     "github": "https://github.com/kylegrabski/React-Employee-Directory",
     "about": "A site ment to reflect an employee directory that could be used internally in any company."
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Budget Tracker",
-    "image": "http://placekitten.com/200/100",
+    "image": "/images/budget-tracker.png",
     "url": "https://budget-tracker-app1.herokuapp.com/",
     "github": "https://github.com/kylegrabski/Online-Offline-Budget-Tracker",
     "about": "A Progressive Web Application that can be downloaded on a phone or desktop as well as having offline functionality."
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Team Profile Manager",
-    "image": "http://placekitten.com/200/300",
+    "image": "/images/team-profile-manager.png",
     "url": "",
     "github": "https://github.com/kylegrabski/Team-Profile-Manager",
     "about": "A back end application that, after answering questions in the command line about your team, will generate a web page displaying those team members and their roles."
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Workout Tracker",
-    "image": "http://placekitten.com/200/300",
+    "image": "/images/workout-tracker.png",
     "url": "https://workout-tracker-app12.herokuapp.com/?id=607a0abe69cb92025a83df1a",
     "github": "https://github.com/kylegrabski/Workout-Tracker",
     "about": "A Full Stack web application that can store and update user data."
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Spoofify",
-    "image": "http://placekitten.com/200/300",
+    "image": "/images/spoofify.png",
     "url": "https://spoofify13.herokuapp.com/login",
     "github": "https://github.com/mcolumbusua21/Spoofify",
     "about": "A website that allows users to login to Spotify and search songs through Spotify's API. Saves user data to track tokens to Spotify's API."
