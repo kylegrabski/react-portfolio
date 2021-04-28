@@ -3,7 +3,6 @@ import styles from "./jumbotron.module.css";
 import Container from "@material-ui/core/Container";
 import Fade from "react-reveal/Fade";
 import TextLoop from "react-text-loop";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 // @ToDo style more, have image be at top, word div needs to be centered and mobile friendly
 function Jumbotron() {

@@ -2,7 +2,6 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 
 function CarouselProjects(props) {
-  console.log(props);
   return (
     <>
       <Carousel fade
