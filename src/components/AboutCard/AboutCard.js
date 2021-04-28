@@ -98,7 +98,7 @@ export default function OutlinedCard() {
           >
             <Grid item md={7}>
               <p style={{ fontSize: "50px" }}>
-                Hi, I'm Kyle, nice to meet you!
+                Hi I'm Kyle, nice to meet you!
               </p>
             </Grid>
 

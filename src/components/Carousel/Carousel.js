@@ -4,10 +4,10 @@ import { Carousel } from "react-bootstrap";
 function CarouselProjects(props) {
   return (
     <>
-      <Carousel fade
+      <Carousel 
       pause={false}
       >
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={2000}>
           <img
             className="d-block w-100"
             src="/images/workout-tracker.png"
