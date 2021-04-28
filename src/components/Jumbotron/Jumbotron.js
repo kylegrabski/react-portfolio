@@ -23,13 +23,13 @@ function Jumbotron() {
           <div className={styles.slogan}>
            
               <Fade top cascade>
-                <div>WEB/</div>
+                <div>WEB</div>{" "}
               </Fade>
               <Fade bottom cascade>
-                <div>DESIGN/</div>
+                <div>DESIGN</div>{" "}
               </Fade>
               <Fade right cascade>
-                <div>MADE/</div>
+                <div>MADE</div>{" "}
               </Fade>
               <TextLoop
                 children={[
