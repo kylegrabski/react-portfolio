@@ -19,15 +19,15 @@
     "id": 3,
     "name": "Team Profile Manager",
     "image": "/images/team-profile-manager.png",
-    "url": "",
+    "url": "https://www.youtube.com/watch?v=HGUGAriyg5g",
     "github": "https://github.com/kylegrabski/Team-Profile-Manager",
     "about": "A back end application that, after answering questions in the command line about your team, will generate a web page displaying those team members and their roles."
   },
   {
     "id": 4,
     "name": "E-Commerce Back End",
-    "image": "http://placekitten.com/200/300",
-    "url": "",
+    "image": "/images/e-commerce-placeholder.jpg",
+    "url": "https://www.youtube.com/watch?v=mXDfqp9hSJc",
     "github": "https://github.com/kylegrabski/E-Commerce-Back-End",
     "about": "A back end application replicating an e-commerce web site."
   },
