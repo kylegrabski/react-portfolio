@@ -5,7 +5,7 @@
 
 ## IN PROGRESS
 
-![screenshot](./src/components/assets/img/screenshot.png)  
+ 
 
 <br>  
 
